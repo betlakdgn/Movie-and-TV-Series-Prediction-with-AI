@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and local environment files
+*.log
+*.env
+*.local
+
+# Model files
+model/*.pkl
+
+# Data files
+data/*.csv
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+*.iml
+
+# PyCharm specific
+*.pyc
+*.pyo
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Git specific files
+*.swp
