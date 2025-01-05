@@ -1,4 +1,4 @@
-from src.predict import predict_genre  # Tahmin fonksiyonunu içe aktar
+from src.predict import predict_genre
 
 if __name__ == "__main__":
     while True:
@@ -7,7 +7,7 @@ if __name__ == "__main__":
             print("Çıkılıyor...")
             break
 
-        # Tahmin yap
+
         try:
             predicted_genre = predict_genre(user_input)
             print(f"Tahmin edilen tür: {predicted_genre}")

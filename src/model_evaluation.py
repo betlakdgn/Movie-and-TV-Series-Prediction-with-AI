@@ -3,10 +3,10 @@ import joblib
 
 
 def evaluate_model(X_test, y_test):
-    # Model ve vektörizeri yükle
+
     model = joblib.load('model/genre_model.pkl')
 
-    # Tahminler
+
     y_pred = model.predict(X_test)
 
     # Raporlama
